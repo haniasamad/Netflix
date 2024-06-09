@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(net.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 1348px;
+    
+     
+
+}
+.conteiner svg{
+    height: 35px;
+    fill: #C11119;
+   
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding:20px 100px;
+    
+    
+}
+.conteiner button{
+    background-color:#C11119;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight:bold ;
+    font-size: 15px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    line-height: 60px;
+    color: white;
+}
+.content button{
+    margin-left: 370px;
+    margin-top: -52px;
+    height: 50px;
+    width: 190px;
+    background-color: #C11119;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.content h1{
+    font-size: 60px;
+    
+}
+.content h3{
+    font-size: 25px;
+    font-family: "arial";
+    font-weight: 100;
+}
+.content p{
+    font-size: 24px;
+    font-family: "arial";
+}
+.content input{
+    width: 390px;
+    margin-left: -240px;
+    height: 50px;
+    background-color:#1C2432 ;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    
+    
+}
+.content ::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 13px;
+    
+}
+.tv{
+    border-top: 10px solid #232323;
+    display: flex;
+   background-color: #000000;
+   
+    color: white;
+    height: 500px;
+    width: 100%;
+    
+}
+.tv-show img{
+    height: 300px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.center{
+    margin-left: 120px;
+    margin-top: 100px;
+    font-family: "arial";
+    
+}
+.center h1{
+    font-size: 50px;
+}
+.center p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    border-top:10px solid  #232323;
+    height: 500px;
+    
+}
+.img img{
+    margin-top: 10px;
+    height: 350px;
+    margin-left: 80px;
+}
+.para h1{
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 50px;
+    font-family: 'arial';
+}
+.para p{
+    margin-top: 10px;
+line-height: 30px;
+margin-left: 80px;
+font-size: 20px;
+font-family: 'arial';
+}
+.head{
+    color: white;
+    background-color: #000000;
+    border-top:10px solid #232323 ;
+    height: 300px;
+    padding: 50px 200px;
+    border-bottom:10px solid #232323 ;
+}
+.head h1{
+    font-size: 50px;
+    font-family: "arial";
+}
+.head p{
+    font-size: 20px;
+    font-family: "arial";
+    line-height: 30px;
+    margin-top: 20px;
+}
+.foot{
+    display: flex;
+    background-color: #000000;
+    height: 500px;
+    border-bottom:10px solid #232323 ;
+    
+}
+.foot-1{
+    color: white;
+}
+.display-items img{
+    height: 360px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.foot-1 h1{
+    font-size: 50px;
+    font-family: "arial";
+    margin-top: 80px;
+}
+.foot-1 p{
+    font-size: 22px;
+    font-family: "arial";
+    line-height: 28px;
+}
+.all{
+    display: flex;
+    background-color: #414141;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: -30px;
+    height: 70px;
+}
+.items h1{
+    font-size: 50px;
+    padding: 50px 330px;
+    color: white;
+    font-family: "arial";
+}
+.all p{
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    font-family: "arial";
+    color: white;
+}
+.fa-plus{
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin-left: 670px;
+    margin-top: 3px;
+}
+.faq{
+    background-color: #000000;
+   height: 1000px;
+   
+  
+}
+.all-1{
+background-color: #414141;
+width: 70%;
+margin-left: 200px;
+margin-top: -788px;
+height: 80px;
+color: white;
+}
+
+.all-1 p{
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    font-family: "arial";
+    color: white;
+}
+.ion{
+    margin-top: -55px;
+}
+.ion .fa-plus{
+    
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin-left: 890px;
+}
+.ek p{
+    color: white;
+}
+
+.all-2{
+    background-color: #414141;
+    width: 70%;
+    margin-left: 200px;
+        margin-top: 10px;
+    height: 80px;
+    color: white;
+    }
+    
+    .all-2 p{
+        font-size: 25px;
+        color: white;
+        padding: 15px 20px;
+        font-family: "arial";
+        color: white;
+    }
+.butt{
+    display: flex;
+    width: 100%;
+}
+.butt button{
+    margin-left: 20px;
+    height: 50px;
+    width: 190px;
+    background-color: #C11119;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    }
+.butt input{
+    
+    width: 390px;
+    margin-left: 350px;
+    height: 50px;
+    background-color:#292e35 ;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.butt ::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 13px;
+    
+}
+.paragraph p{
+    color: white;
+    font-size: 20px;
+    padding: 30px 350px;
+    font-family: "arial";
+}
+.fa-angle-right{
+    margin-left: 5px;
+    font-size: 25px;
+    
+}
+.footer{
+    display: flex;
+    width: 100%;
+       background-color: #000000;
+    color: white;
+    border-top:10px solid  #232323 ;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    padding: 20px 0.1px;
+    list-style: none;
+    height: 300px;
+}
+.footer-1 h4{
+    font-family: "arial";
+}
+.footer-1 p{
+    font-size: 17px;
+    font-family: "arial";
+    line-height: 25px;
+    text-decoration-line: underline;
+    
+}
+
+.footer-2 p{
+    font-size: 17px;
+    font-family: "arial";
+    line-height: 25px;
+    text-decoration-line: underline;
+    
+}
+
+.footer-3 p{
+    font-size: 17px;
+    font-family: "arial";
+    line-height: 25px;
+    text-decoration-line: underline;
+    
+}
+
+.footer-4 p{
+    font-size: 17px;
+    font-family: "arial";
+    line-height: 25px;
+    text-decoration-line: underline;
+    
+}
+.but{
+    margin-top: -160px;
+    margin-left: 150px;
+}
+.but button{
+    padding: 8px 15px;
+    font-size: 17px;
+    background-color: #232323;
+    color: white;
+    border: none;
+border: 1px solid gray;
+border-radius: 5px;
+    
+}
+.fa-caret-down{
+    margin-left: 14px;
+}
+.but svg{
+    margin-left: -9px;
+}
+.p p{
+    color: white;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: "arial";
+    text-decoration: underline;
+}
